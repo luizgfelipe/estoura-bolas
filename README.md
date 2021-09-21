@@ -2,5 +2,5 @@
 
 Jogo de estourar bolinhas feito com html, css e javascript para praticar estudos
 
-##Melhorias
+## Melhorias
 - Níveis de dificuldade
