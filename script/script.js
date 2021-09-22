@@ -33,9 +33,9 @@ function addBola(){
     bolaQtd = bolaQtd + 1;
     document.querySelector(".information__balls").innerHTML = "Bolas na tela: "+bolaQtd;
 
-    if(bolaQtd > 5){
+    if(bolaQtd > 10){
         fimDeJogo()
-    } else if(pontosQtd == 10){
+    } else if(pontosQtd == 20){
         fimDeJogo();
     }
 }
