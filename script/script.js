@@ -147,10 +147,10 @@ function fimDeJogo(){
 
     pararJogo();
 
-    if(bolaQtd > 2){
+    if(bolaQtd >= 10){
         //Adiciona o fundo de game over
         document.querySelector(".display").classList.add("loser");
-    } else if(pontosQtd == 5){
+    } else if(pontosQtd == 20){
         //Adiciona o fundo de winner
         document.querySelector(".display").classList.add("winner");
     }
