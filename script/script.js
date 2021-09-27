@@ -35,8 +35,6 @@ function addBola(){
 
     if(bolaQtd >= 10){
         fimDeJogo()
-    } else if(pontosQtd == 20){
-        fimDeJogo();
     }
 }
 
@@ -54,6 +52,10 @@ function estourar(elemento){
     
         pontosQtd = pontosQtd + 1
         document.querySelector(".information__points").innerHTML = "Pontos: "+pontosQtd;
+
+        if(pontosQtd == 20){
+            fimDeJogo();
+        }
     }
 }
 
